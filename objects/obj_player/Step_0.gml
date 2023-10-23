@@ -5,6 +5,8 @@ left = keyboard_check(ord("A"));
 down = keyboard_check(ord("S"));
 up = keyboard_check(ord("W"));
 
+if(obj_system.state!="compra"){
+
 if(x<obj_mira.x){
 	image_xscale = 1;
 }else{
@@ -12,7 +14,7 @@ if(x<obj_mira.x){
 }
 
 if(mouse_check_button_pressed(mb_left)&&attack==false){
-	instance_create_layer(x,y,"Instances",obj_attack);
+	instance_create_layer(x,y,"Effects",obj_attack);
 	alarm[0] = 30;
 	attack = true;
 }
@@ -57,4 +59,6 @@ switch(state){
 	case("special"):
 	
 		break;
+}
+
 }

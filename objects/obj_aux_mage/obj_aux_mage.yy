@@ -30,5 +30,5 @@
     "path": "sprites/spr_collision_mage/spr_collision_mage.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

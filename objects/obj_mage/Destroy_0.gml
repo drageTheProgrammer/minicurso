@@ -1,0 +1,1 @@
+obj_system.kills++;

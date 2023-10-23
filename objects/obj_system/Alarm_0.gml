@@ -1,0 +1,4 @@
+spawn(inimigos_aux);
+
+
+

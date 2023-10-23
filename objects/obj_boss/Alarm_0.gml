@@ -1,0 +1,5 @@
+state = "walk";
+attack = false;
+
+
+

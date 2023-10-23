@@ -17,7 +17,7 @@ switch(state){
 		if(distance_to_object(obj_player)<=2){
 			state = "attack";
 			image_index = 0;
-			var atk = instance_create_layer(x,y,"Instances",obj_slime_attack);
+			var atk = instance_create_layer(x,y,"Effects",obj_slime_attack);
 			atk.image_xscale = image_xscale;
 		}
 		
