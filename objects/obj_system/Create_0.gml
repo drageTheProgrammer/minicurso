@@ -1,6 +1,6 @@
 randomize();
 
-state = "a";
+state = "espera";
 title = false;
 alpha = 0;
 alpha_max = false;
